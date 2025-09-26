@@ -10,25 +10,31 @@ import React from "react";
 //   ];
 function Navbar(){
   return (
-    <nav className='fixed w-full top-0 left-0 z-50 bg-red-500 transition-all duration-300'>
+    <nav className='max-w-10xl mx-auto fixed w-full top-0 left-0 z-50 bg-red-500 transition-all duration-300'>
         
-        <div className='flex gap-20 lg:max-w-6xl max-md:px-6 lg:px-6 max-lg:max-w-2xl mx-auto py-5 items-center'>
+        <div className='max-w-6xl mx-auto flex justify-between items-center p-4'>
               
               {/* Logo  */}
         
         <a
           href="/"
-          className="text-3xl ml-5 text-white font-bold satisfy-regular hover:scale-105 transition-transform duration-300"
+          className="text-xl ml-5 text-white font-bold satisfy-regular hover:scale-105 transition-transform duration-300"
         >
           Atlas Ventures
         </a>
-           <div className='ml-50 flex items-end gap-20 font-monteserrat'>
+           <div className='hidden md:flex space-x-6 ml-50 flex items-end gap-20 font-monteserrat'>
             <a href="#home" className=" font-bold text-2xl text-white hover:scale-105 transition-transform duration-300 hover:text-black ">Home</a>
             <a href="#about" className="font-bold text-2xl text-white hover:scale-105 transition-transform duration-300 hover:text-black ">About Us</a>
             <a href="#services" className="font-bold text-2xl text-white hover:scale-105 transition-transform duration-300 hover:text-black ">Services</a>
             <a href="#contact" className="font-bold text-2xl text-white hover:scale-105 transition-transform duration-300 hover:text-black ">Contact</a>
             </div> 
-            
+            {/* Mobile menu button */}
+          <button className="md:hidden bg-white text-blue-600 px-2 py-1 rounded" 
+          
+          >
+            ☰
+          </button>
+  
         </div>
          
         

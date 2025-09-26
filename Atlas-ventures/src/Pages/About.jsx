@@ -4,9 +4,9 @@ import aboutImage from "../assets/Imports-clearing-and-Forwarding.webp"
 const About = () => {
   return (
 
-        <section id='about' className='mb-30'>
+        <section id='about' className='mb-30 bg-gray-50 py-12 px-6'>
             <div >
-        <h1 className='text-5xl font-bold text-red-500 ml-140'>About Us</h1>
+        <h1 className='text-5xl font-bold text-red-500 ml-140 text-2xl font-bold text-blue-600 mb-4'>About Us</h1>
         <p className="text-black  font-bold ml-143 flex items-center space-x-2 mb-4">
              <span className=''>Clearing and Forwarding</span>
           </p>
@@ -19,7 +19,7 @@ const About = () => {
           <h4 className="text-2xl md:text-3xl font-bold mb-6 pl-10 pr-12 hover:text-blue-500 cursor-pointer">
             We make imports & exports simple!
           </h4>
-          <p className="text-gray-600 leading-relaxed mb-4">
+          <p className="text-gray-600 leading-relaxed mb-4 ">
             As the most efficient clearing agent in Nigeria, we act as <br /> your guide
             through the often complicated import and <br />export process. Each step of
             the way we act on your <br />behalf, clearing your goods through Nigeria Customs, <br />
