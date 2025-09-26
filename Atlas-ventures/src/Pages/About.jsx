@@ -6,8 +6,8 @@ const About = () => {
 
         <section id='about' className='mb-30'>
             <div >
-        <h1 className='text-5xl font-bold text-blue-500 ml-140'>About Us</h1>
-        <p className="text-blue-400  font-bold ml-143 flex items-center space-x-2 mb-4">
+        <h1 className='text-5xl font-bold text-red-500 ml-140'>About Us</h1>
+        <p className="text-black  font-bold ml-143 flex items-center space-x-2 mb-4">
              <span className=''>Clearing and Forwarding</span>
           </p>
         <div className='flex justify-between'>

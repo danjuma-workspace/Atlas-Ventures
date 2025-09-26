@@ -7,8 +7,8 @@ const Home = () => {
      <div className='flex justify-between mt-40 mb-30 '>
         <div className='ml-15  mt-20'>
             <h4 className='text-black text-3xl'>We make imports & exports simple!</h4>
-        <h2 className='font-bold text-5xl'>The only <span className='text-blue-600 text-5xl font-bold'>Clearing Agent</span><br />
-             <span className='text-blue-600 text-5xl font-bold'>in Nigeria </span>you'll need.</h2>
+        <h2 className='font-bold text-5xl'>The only <span className='text-red-500 text-5xl font-bold'>Clearing Agent</span><br />
+             <span className='text-red-500 text-5xl font-bold'>in Nigeria </span>you'll need.</h2>
         </div>
         
             <div>
